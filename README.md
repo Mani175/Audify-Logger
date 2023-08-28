@@ -1,5 +1,5 @@
 # Audify Free
-NEW PAID LOGGER: https://discord.gg/RJzy46ZfdK
+NEW PAID LOGGER: https://discord.gg/PeGrZw7P
 
 Audify Free is a Python script that sends your IP address and Roblox cookie to a Discord webhook. It is intended for educational purposes only and should not be used for malicious intent.
 
